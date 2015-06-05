@@ -2,8 +2,15 @@ package ruleta;
 
 import java.awt.Color;
 
+/**
+ * Clase que genera los colores y los pone en una matriz
+ * 
+ * @author Miguel Igual
+ * @version 1.0
+ */
 public class Colors {
 	
+	//Se crean los colores y la matriz como atributos publicos
 	public static Color verdeOscuro = new Color(5, 100, 2);
 	public static Color verde = new Color(10, 205, 10);
 	public static Color amarillo = new Color(255, 248, 14);
@@ -14,9 +21,12 @@ public class Colors {
 	public static Color violeta = new Color(147, 0, 210);
 	public static Color azul = new Color(0, 30, 236);
 	public static Color cyan = new Color(150, 250, 250);
-	//public static Color rosa = new Color(255, 146, 238);
 	public Color[] colores;
-
+	
+	/**
+	 * El constructor de la clase.
+	 * Crea la matriz de 10 colores y la rellena con los colores de la clase.
+	 */
 	public Colors(){
 		colores = new Color[10];
 		colores[0]=verdeOscuro;

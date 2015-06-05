@@ -10,6 +10,13 @@ import javax.swing.JLabel;
 import javax.swing.border.BevelBorder;
 import java.awt.Font;
 
+/**
+ * Clase de tipo JFrame que será nuestra ventana principal del programa,
+ * y donde añadiremos el resto de objetos gráficos.
+ * 
+ * @author Miguel Igual
+ * @version 1.0
+ */
 @SuppressWarnings("serial")
 public class Ruleta extends JFrame {
 
@@ -29,7 +36,9 @@ public class Ruleta extends JFrame {
 	private int numCasillas;
 	
 	/**
-	 * Launch the application.
+	 * Método principal que lanza el Frame.
+	 * 
+	 * @param args Numero de paramétros que acepta, en este caso ninguno.
 	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -45,7 +54,7 @@ public class Ruleta extends JFrame {
 	}
 
 	/**
-	 * Create the frame.
+	 * Constructor del frame.
 	 */
 	public Ruleta() {
 		setTitle("La Petite Roulette");
@@ -83,7 +92,6 @@ public class Ruleta extends JFrame {
 		}
 
 	
-	
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -119,10 +127,20 @@ public class Ruleta extends JFrame {
 	
 	}
 	
+	/**
+	 * Método que nos devuelve la anchura total en pixels de nuestra pantalla
+	 * 
+	 * @return int
+	 */
 	public static int getScreenWidth() {
 	    return java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment().getMaximumWindowBounds().width;
 	}
-
+	
+	/**
+	 * Método que nos devuelve la altura total en pixels de nuestra pantalla
+	 * 
+	 * @return int
+	 */
 	public static int getScreenHeight() {
 	    return java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment().getMaximumWindowBounds().height;
 	}
