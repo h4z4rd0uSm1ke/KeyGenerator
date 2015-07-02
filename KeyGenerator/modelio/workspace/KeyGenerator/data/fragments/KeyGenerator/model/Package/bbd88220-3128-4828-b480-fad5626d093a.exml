@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="keygenerator" version="3">
+  <DEPS>
+    <ID name="keygenerator" mc="Package" uid="bbd88220-3128-4828-b480-fad5626d093a"/>
+    <COMPID name="generate()" mc="ClassDiagram" uid="b2f86231-e59e-45e7-94ae-c1cd2d573537"/>
+    <COMPID name="keyGenerated()" mc="UseCaseDiagram" uid="395fcf98-1514-473d-b6a2-a3847bb8e483"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="keygenerator" mc="Package" uid="bbd88220-3128-4828-b480-fad5626d093a"/>
+    <PID name="KeyGenerator" mc="Project" uid="f3b022dd-2b2f-4e6d-9b8c-b9263c38990e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[keygenerator]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Product">
+        <COMPID name="generate()" mc="ClassDiagram" uid="b2f86231-e59e-45e7-94ae-c1cd2d573537"/>
+        <COMPID name="keyGenerated()" mc="UseCaseDiagram" uid="395fcf98-1514-473d-b6a2-a3847bb8e483"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

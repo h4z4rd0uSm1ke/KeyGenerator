@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="KeyGenerator" version="3">
+  <DEPS>
+    <ID name="KeyGenerator" mc="AnalystProject" uid="d2b4640c-8752-41f1-ab58-a34f5e394ba6"/>
+    <COMPID name="KeyGenerator" mc="PropertyContainer" uid="401f293e-2112-42f2-9a09-dacdf24267be"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="KeyGenerator" mc="AnalystProject" uid="d2b4640c-8752-41f1-ab58-a34f5e394ba6"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[KeyGenerator]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="PropertyRoot">
+        <COMPID name="KeyGenerator" mc="PropertyContainer" uid="401f293e-2112-42f2-9a09-dacdf24267be"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

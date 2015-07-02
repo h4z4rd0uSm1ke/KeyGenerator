@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="KeyGenerator" version="3">
+  <DEPS>
+    <ID name="KeyGenerator" mc="Project" uid="f3b022dd-2b2f-4e6d-9b8c-b9263c38990e"/>
+    <COMPID name="KeyGenerator" mc="DiagramSet" uid="95682b38-b342-4638-b980-b90fa9cbc3ea"/>
+    <COMPID name="keygenerator" mc="Package" uid="bbd88220-3128-4828-b480-fad5626d093a"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="KeyGenerator" mc="Project" uid="f3b022dd-2b2f-4e6d-9b8c-b9263c38990e"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[KeyGenerator]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DiagramRoot">
+        <COMPID name="KeyGenerator" mc="DiagramSet" uid="95682b38-b342-4638-b980-b90fa9cbc3ea"/>
+      </COMP>
+      <COMP relation="Model">
+        <COMPID name="keygenerator" mc="Package" uid="bbd88220-3128-4828-b480-fad5626d093a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="KeyGenerator" version="3">
+  <DEPS>
+    <ID name="KeyGenerator" mc="DiagramSet" uid="95682b38-b342-4638-b980-b90fa9cbc3ea"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="KeyGenerator" mc="DiagramSet" uid="95682b38-b342-4638-b980-b90fa9cbc3ea"/>
+    <PID name="KeyGenerator" mc="Project" uid="f3b022dd-2b2f-4e6d-9b8c-b9263c38990e"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[KeyGenerator]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
